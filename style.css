@@ -13,11 +13,12 @@ font-size: 1.9em;
 font-weight: bold;
 margin-left: 20px;
 text-decoration: underline overline black;
+font-style: sans-serif;
 }
 
 #answer{
 	width: 100%;
-	height: 70vh;
+	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,6 +27,7 @@ text-decoration: underline overline black;
 h2{
 font-size: 6em;
 font-weight: bold;
+font-style: sans-serif;
 }
 
 img {
@@ -36,19 +38,23 @@ margin-left: -5px;
 }
 
 #footer{
- padding: 5px;
+ padding: 10px;
  background: #323232;
  color: lightgrey;
  text-align: center;
  position: fixed; bottom: 0;
  width: 100%;
+ font-style: sans-serif;
 }
 
+#footer ul{
+list-style-type: none;
+margin-bottom: 0;
+}
 
 #footer a {
   color: lightgrey;
   font-size: 1.5rem;
-  margin-bottom: 0;
 }
 
 #footer a:hover {
