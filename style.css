@@ -1,9 +1,10 @@
 body {
-	height: 100vh;
+	width: 100%;
+
 }
 
 #question {
-	height: 10vh;
+	margin-top: 20px;
 }
 
 h1 { 
@@ -11,7 +12,6 @@ color: black;
 font-size: 1.9em;
 font-weight: bold;
 margin-left: 20px;
-margin-top: 20px;
 text-decoration: underline overline black;
 }
 
@@ -24,24 +24,33 @@ text-decoration: underline overline black;
 }
 
 h2{
-font-size: 8em;
+font-size: 6em;
 font-weight: bold;
 }
 
-#answer img {
-	margin-top: 60px;
+img {
+width: 40px;
+height: 40px;
+margin-top: 60px; 
+margin-left: -5px;
 }
 
-#footer {
-  background: white;
-  color: lightgrey;
-  text-align: center;
-  text-decoration: underline;
+#footer{
+ padding: 5px;
+ background: #323232;
+ color: lightgrey;
+ text-align: center;
+ position: fixed; bottom: 0;
+ width: 100%;
 }
+
 
 #footer a {
   color: lightgrey;
-  font-size: 0.9375rem;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#footer a:hover {
+  color: white;
 }
