@@ -40,7 +40,7 @@ a:hover {
 }
 
 .message {
-  height: 50%;
+  height: 35%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -70,12 +70,16 @@ a:hover {
 }
 
 .response {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 900;
 }
 
 img {
-  height: 40px;
-  width: 40px;
-  margin-top: 60px;
+  height: 35px;
+  width: 35px;
+  margin-top: 50px;
+}
+
+.comeagain {
+  margin: 0 auto;
 }

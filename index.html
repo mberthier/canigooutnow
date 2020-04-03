@@ -19,6 +19,18 @@
 					<h2 class="response">No</h2>
 					<img src="virus.svg">					
 				</section>
+				<section class="comeagain">
+					<button type="button" class="btn btn-outline-dark" onclick="changeResponse()">What about now?</button>
+    				<script type="text/javascript"> 
+        			function changeResponse() { 
+            		newResponse = ['Nein', 'Non', 'Nej', 'Não', 'Nie', 'Nei', 'Het', 'Yes (JK)', 'No', 'Nope', 'Stop'];
+            		rand = newResponse[(Math.random() * newResponse.length) | 0] 
+            		document.querySelector('h2').textContent 
+                    = rand
+        			} 
+    				</script>
+
+				</section>
 				<footer class="footer">
 					<ul class="list-inline">
           				<li class="list-inline-item"><a href=https://www.who.int/emergencies/diseases/novel-coronavirus-2019><i class="fas fa-globe-americas"></i></a></li>
